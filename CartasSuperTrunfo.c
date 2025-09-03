@@ -1,22 +1,23 @@
 #include <stdio.h>
+int main() 
+{
+// mover a torre 5 casas para a direita
+for (int i = 0; i < 5; i++)
+printf("direita\n"); // imprimir a direção do movimento
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+// mover o bispo 5 casas na diagonal
+int i = 1;
+while (i <= 5) {
+printf("cima, direita\n", i); // imprimir a direção do movimento
+i++;
+}
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+// mover a rainha 8 casas para a esquerda
+int i = 1;
+do {
+printf("esquerda \n", i); // imprimir a direção do movimento
+i++;
+} while (i <= 5);
+printf("novo commit\n");
 
-    return 0;
 }
