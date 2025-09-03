@@ -18,6 +18,6 @@ do {
 printf("esquerda \n", i); // imprimir a direção do movimento
 i++;
 } while (i <= 5);
-printf("novo commit\n");
+printf("desafio xarez\n");
 
 }
